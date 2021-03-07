@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "Hello World!"
+                touch /tmp/sumit.txt
             }
         }
     }
